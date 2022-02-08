@@ -1,0 +1,14 @@
+    1  sudo yum -y update 
+    2  sudo yum -y install git
+    3  git --version
+    4  git config --global user.name "disenable"
+    5  git config --global user.email imjustvietle@gmail.com
+    6  git clone https://github.com/disenable/cloud9.git
+    7  cd cloud9
+    8  git status
+    9  git add --all
+   10  git status
+   11  git commit -m "added information about birds, insects, and reptiles."
+   12  git push
+   13  history
+   14  history > file.txt
